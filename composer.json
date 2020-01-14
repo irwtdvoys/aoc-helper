@@ -1,0 +1,24 @@
+{
+    "name": "cruxoft/aoc-helper",
+    "description": "Basic helper library for Advent of Code",
+    "type": "library",
+    "require": {
+        "php": "^7.0",
+        "cruxoft/bolt-core": "^0.8.0"
+    },
+    "require-dev": {
+        "cruxoft/dump": "^0.2"
+    },
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Steve Adams",
+            "email": "irwtdvoys@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "AoC\\": "src/"
+        }
+    }
+}
