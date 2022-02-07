@@ -1,7 +1,7 @@
 <?php
 	namespace AoC\Utils;
 
-	class Colours
+	class Styling
 	{
 		const BLACK = "30";
 		const RED = "31";
