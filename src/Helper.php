@@ -6,10 +6,12 @@
 	abstract class Helper
 	{
 		private int $day;
+		protected bool $verbose;
 
-		public function __construct(int $day)
+		public function __construct(int $day, bool $verbose = false)
 		{
 			$this->day = $day;
+			$this->verbose = $verbose;
 		}
 
 		protected function filename(string $override = null): string
