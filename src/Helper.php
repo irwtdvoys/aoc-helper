@@ -14,7 +14,7 @@
 
 		protected function filename(string $override = null): string
 		{
-			return isset($override) ? $override : ROOT . "data/" . str_pad($this->day, 2, "0", STR_PAD_LEFT) . "/input";
+			return $override ?? ROOT . "data/" . str_pad($this->day, 2, "0", STR_PAD_LEFT) . "/input";
 		}
 
 		protected function load(string $override = null): string

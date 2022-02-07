@@ -3,8 +3,9 @@
     "description": "Basic helper library for Advent of Code",
     "type": "library",
     "require": {
-        "php": "^7.0",
-        "cruxoft/bolt-core": "^0.8.0"
+        "php": "^7.4",
+        "cruxoft/bolt-core": "^0.10.0",
+        "ext-curl": "*"
     },
     "require-dev": {
         "cruxoft/dump": "^0.2"
